@@ -31,7 +31,7 @@ export default function Img1() {
             left: 0,
             objectFit: "contain", // Show entire image without cropping
           }}
-          src="./lift-l.png"
+          src="./img2/lift-l.png"
           alt="Lift left"
         />
         <img
@@ -43,7 +43,7 @@ export default function Img1() {
             left: 0,
             objectFit: "contain",
           }}
-          src="./lift-r.png"
+          src="./img2/lift-r.png"
           alt="Lift right"
         />
         <img
