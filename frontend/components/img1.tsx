@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Img1() {
   return (
     <div
@@ -107,115 +109,121 @@ export default function Img1() {
           }}
         >
           {/* Community Button */}
-          <div
-            style={{
-              width: 179,
-              height: 38,
-              position: "relative",
-            }}
-          >
+          <Link href={"/community"}>
             <div
               style={{
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-                opacity: 0.66,
-                background: "#630063",
-                boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                borderRadius: 30,
-              }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "white",
-                fontSize: 16,
-                fontFamily: "Kalnia, sans-serif",
-                fontWeight: "300",
-                letterSpacing: 0.96,
-                whiteSpace: "nowrap",
+                width: 179,
+                height: 38,
+                position: "relative",
               }}
             >
-              Community
+              <div
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  position: "absolute",
+                  opacity: 0.66,
+                  background: "#630063",
+                  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                  borderRadius: 30,
+                }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "white",
+                  fontSize: 16,
+                  fontFamily: "Kalnia, sans-serif",
+                  fontWeight: "300",
+                  letterSpacing: 0.96,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                Community
+              </div>
             </div>
-          </div>
+          </Link>
 
           {/* Pro Member Button */}
-          <div
-            style={{
-              width: 179,
-              height: 38,
-              position: "relative",
-            }}
-          >
+          <Link href={"/member"}>
             <div
               style={{
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-                opacity: 0.66,
-                background: "#630063",
-                boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                borderRadius: 30,
-              }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "white",
-                fontSize: 16,
-                fontFamily: "Kalnia, sans-serif",
-                fontWeight: "300",
-                letterSpacing: 0.96,
-                whiteSpace: "nowrap",
+                width: 179,
+                height: 38,
+                position: "relative",
               }}
             >
-              Pro Member
+              <div
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  position: "absolute",
+                  opacity: 0.66,
+                  background: "#630063",
+                  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                  borderRadius: 30,
+                }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "white",
+                  fontSize: 16,
+                  fontFamily: "Kalnia, sans-serif",
+                  fontWeight: "300",
+                  letterSpacing: 0.96,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                Pro Member
+              </div>
             </div>
-          </div>
+          </Link>
 
           {/* Login/Sign up Button */}
-          <div
-            style={{
-              width: 179,
-              height: 38,
-              position: "relative",
-            }}
-          >
+          <Link href={"/login"}>
             <div
               style={{
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-                opacity: 0.66,
-                background: "#630063",
-                boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
-                borderRadius: 30,
-              }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                color: "white",
-                fontSize: 16,
-                fontFamily: "Kalnia, sans-serif",
-                fontWeight: "300",
-                letterSpacing: 0.96,
-                whiteSpace: "nowrap",
+                width: 179,
+                height: 38,
+                position: "relative",
               }}
             >
-              login / sign up
+              <div
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  position: "absolute",
+                  opacity: 0.66,
+                  background: "#630063",
+                  boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
+                  borderRadius: 30,
+                }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  color: "white",
+                  fontSize: 16,
+                  fontFamily: "Kalnia, sans-serif",
+                  fontWeight: "300",
+                  letterSpacing: 0.96,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                login / sign up
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Click Here button - positioned according to original design */}
@@ -240,21 +248,23 @@ export default function Img1() {
               borderRadius: 30,
             }}
           />
-          <div
-            style={{
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
-              color: "white",
-              fontSize: 14,
-              fontFamily: "Kalnia, sans-serif",
-              fontWeight: "300",
-              letterSpacing: 0.84,
-            }}
-          >
-            Click Here
-          </div>
+          <Link href={"/home2"}>
+            <div
+              style={{
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+                fontSize: 14,
+                fontFamily: "Kalnia, sans-serif",
+                fontWeight: "300",
+                letterSpacing: 0.84,
+              }}
+            >
+              Click Here
+            </div>
+          </Link>
         </div>
       </div>
     </div>
